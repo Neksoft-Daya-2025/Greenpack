@@ -1,0 +1,12 @@
+{
+  "website.tar.gz": {
+    "sha256": "c74dfea472bf970a56651ca08d843e90282864b501d9be66e4943767c768b9e5",
+    "encrypted_file": "website.tar.gz.enc",
+    "encrypted_bytes": 1463801988
+  },
+  "database.sql.gz": {
+    "sha256": "f401120c666339fd156c14414984622b1450f9ff879ae0f0b36903b297fa3133",
+    "encrypted_file": "database.sql.gz.enc",
+    "encrypted_bytes": 18485436
+  }
+}
