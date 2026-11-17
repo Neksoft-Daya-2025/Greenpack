@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "Green Pack Heading";
+  src: url("barlow-semi-condensed-700.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+/* Rajdhani lacks t-comma; use one complete font for the main page titles. */
+.elementor h1.elementor-heading-title,
+.page-header h1 {
+  font-family: "Green Pack Heading", sans-serif;
+}
+.elementor-9686 .ekit_creative_button,
+.elementor-30 .ekit_creative_button {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+[id="ekit-megamenu-green-pack-main-menu"] > .elementskit-navbar-nav > li > a {
+  text-transform: uppercase;
+}
+@media (min-width: 1025px) {
+  .elementor-9686 :is(.elementor-element-390d2fa, .elementor-element-1aacb5f) {
+    --width: auto;
+    flex: 1 1 0;
+    min-width: 0;
+  }
+  .elementor-9686 :is(.elementor-element-84e486a, .elementor-element-42e0742) {
+    --width: 210px;
+    flex: 0 0 210px;
+  }
+  .elementor-9686 .ekit_creative_button { padding-inline: 16px; }
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .elementor-9686 :is(.elementor-element-ae9b40b, .elementor-element-1530b80) { --width: 18%; }
+  .elementor-9686 [id="ekit-megamenu-green-pack-main-menu"] > .elementskit-navbar-nav > li > a { padding-inline: 3px !important; }
+}
+/* Keep the About facts proportional to their content, without repeated tickers. */
+.elementor-2113 .elementor-element-da2c0be { align-items: stretch; }
+.elementor-2113 .elementor-element-da2c0be > .e-con {
+  min-height: 0;
+  height: auto;
+}
+.elementor-2113 :is(.elementor-element-c21911d, .elementor-element-266db80, .elementor-element-824066f) {
+  padding: 28px 22px;
+  gap: 22px;
+  justify-content: flex-start;
+}
+.elementor-2113 .elementor-element-e0e9802 { padding: 0; }
+.elementor-2113 .elementor-element-5f5ed5e,
+.elementor-2113 .elementor-element-5f5ed5e .elementor-widget-container,
+.elementor-2113 .elementor-element-5f5ed5e img { height: 100%; }
+.elementor-2113 .elementor-element-5f5ed5e img { object-fit: cover; }
+.elementor-2113 .elementor-element-824066f p { margin: 0; }
+.elementor-2113 .elementor-element-824066f ul { padding-left: 20px; margin: 18px 0 0; }
+.elementor-2113 .elementor-element-824066f li { margin-bottom: 12px; }
+/* Real company photographs replace the unrelated stock infrastructure banners. */
+.page-id-12842 .page-header {
+  background-image: linear-gradient(#071914aa, #071914aa), url('/wp-content/uploads/greenpack-old/infrastructura/img-02.webp') !important;
+}
+body.page-id-12843 main.site-main > .page-header {
+  background-color: #062b1f !important;
+  background-image: linear-gradient(90deg, #062b1f 0%, #062b1f 35%, #062b1f00 75%), url('/wp-content/uploads/2026/11/greenpack-v3-reference/national-map-v2.webp') !important;
+  background-size: cover, auto 100% !important;
+  background-position: center, right center !important;
+  background-repeat: no-repeat !important;
+}
+body.page-id-12843 main.site-main > .page-header::before { opacity: 0 !important; }
+.page-id-12843 .page-header h1 { font-family: "Green Pack Heading", sans-serif; }
+@media (min-width: 768px) {
+  .page-id-12843 .page-header-box { width: 55%; text-align: left; }
+}
+.page-id-12844 .page-header {
+  background-image: linear-gradient(#07191499, #07191499), url('/wp-content/uploads/greenpack-old/flota/img-01.webp') !important;
+}
+.page-id-12842 .gp-infra-gallery {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.page-id-12842 .gp-infra-gallery figure {
+  margin: 0;
+  overflow: hidden;
+  background: #f5f7f3;
+  border: 1px solid #e8ece7;
+  border-radius: 8px;
+}
+.page-id-12842 .gp-infra-gallery figure img {
+  display: block;
+  width: 100%;
+  height: 230px;
+  aspect-ratio: auto;
+  padding: 16px;
+  object-fit: contain;
+  border-radius: 0;
+  background: #fff;
+}
+.page-id-12842 .gp-infra-gallery figcaption {
+  padding: 14px 18px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #24312d;
+}
+@media (max-width: 1024px) {
+  .page-id-12842 .gp-infra-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 767px) {
+  body.page-id-12843 main.site-main > .page-header {
+    background-image: linear-gradient(#062b1f99, #062b1f99), url('/wp-content/uploads/2026/11/greenpack-v3-reference/national-map-v2.webp') !important;
+    background-position: center !important;
+    background-size: cover, contain !important;
+  }
+  .elementor-2113 .elementor-element-5f5ed5e img { height: 300px; }
+  .page-id-12842 .gp-infra-gallery { grid-template-columns: 1fr; }
+  .page-id-12842 .gp-infra-gallery figure img { height: 240px; }
+}
+/* The first enquiry section is mobile-only; the second supplies the desktop illustration. */
+.elementor-680 :is(.elementor-element-9cb5d3d, .elementor-element-248c01c) .wpcf7 form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px 24px;
+  padding: 28px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 40px #0e171410;
+}
+.elementor-680 :is(.elementor-element-9cb5d3d, .elementor-element-248c01c) fieldset.hidden-fields-container { display: none; }
+.elementor-680 :is(.elementor-element-9cb5d3d, .elementor-element-248c01c) form > p {
+  grid-column: 1 / -1;
+  min-width: 0;
+  margin: 0;
+}
+.elementor-680 :is(.elementor-element-9cb5d3d, .elementor-element-248c01c) form > p:nth-of-type(-n+4) { grid-column: auto; }
+.elementor-680 :is(.elementor-element-9cb5d3d, .elementor-element-248c01c) :is(label, .wpcf7-form-control-wrap) { display: block; min-width: 0; }
+.elementor-680 :is(.elementor-element-9cb5d3d, .elementor-element-248c01c) :is(input[type=text], input[type=email], input[type=tel]) {
+  width: 100%; min-width: 0; box-sizing: border-box;
+}
+.elementor-680 :is(.elementor-element-9cb5d3d, .elementor-element-248c01c) .wpcf7-radio {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;
+}
+.elementor-680 :is(.elementor-element-9cb5d3d, .elementor-element-248c01c) .wpcf7-list-item { margin: 0; }
+.elementor-680 :is(.elementor-element-9cb5d3d, .elementor-element-248c01c) .wpcf7-radio label {
+  display: flex; align-items: center; gap: 10px; padding: 12px;
+  height: 100%; border-radius: 10px; background: #f5f7f3; cursor: pointer;
+}
+.elementor-680 :is(.elementor-element-9cb5d3d, .elementor-element-248c01c) :is(input[type=radio], input[type=checkbox]) {
+  display: inline-block; flex: 0 0 auto; width: 18px; height: 18px; accent-color: #578c1c;
+}
+.elementor-680 :is(.elementor-element-9cb5d3d, .elementor-element-248c01c) input:focus-visible { outline: 2px solid #578c1c; outline-offset: 3px; }
+.elementor-680 :is(.elementor-element-9cb5d3d, .elementor-element-248c01c) .wpcf7-acceptance { display: inline-block; }
+@media (max-width: 767px) {
+  .elementor-680 .elementor-element-f9f6f47 { display: none; }
+  .elementor-680 .elementor-element-fcbf801 { width: 100%; max-width: 100%; padding: 28px 20px; }
+  .elementor-680 .elementor-element-9cb5d3d .wpcf7 form { grid-template-columns: minmax(0, 1fr); padding: 20px; gap: 18px; }
+  .elementor-680 .elementor-element-9cb5d3d form > p:nth-of-type(-n+4) { grid-column: 1 / -1; }
+  .elementor-680 .elementor-element-9cb5d3d .wpcf7-radio { grid-template-columns: minmax(0, 1fr); }
+}
+/* Reuse the site's typography, cards and green actions for the two information pages. */
+.gp-information-page { max-width: 1140px; margin: auto; }
+.gp-information-page > p { max-width: 780px; }
+.gp-information-page h2 { font-family: "Green Pack Heading", sans-serif; margin: 0 0 20px; }
+.gp-information-page section { margin-top: 48px; }
+.gp-information-page video { display: block; width: 100%; max-height: 640px; background: #0e1714; border-radius: 16px; }
+.gp-information-page .gp-info-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.gp-information-page .gp-info-card { padding: 28px; border: 1px solid #dfe7da; border-radius: 12px; background: #f5f7f3; }
+.gp-information-page .gp-info-card h3 { margin-top: 0; }
+.gp-information-page .gp-info-card a { color: #376218; font-weight: 600; }
+@media (max-width: 767px) {
+  .gp-information-page .gp-info-grid { grid-template-columns: 1fr; }
+  .gp-information-page section { margin-top: 32px; }
+}

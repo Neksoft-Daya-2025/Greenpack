@@ -1,0 +1,18 @@
+{
+  "source_board": "C:\\Users\\ASUS\\Desktop\\New folder (5)\\Fw__Website_feedback\\Example_visuals_website pages.png",
+  "generated_marketing_visuals": {
+    "waste-management": "exec-e8fb7407-c299-42a0-9136-172fd053e849.png",
+    "sorting": "exec-7fb8bfef-c452-46cd-aa75-b0375304899f.png",
+    "recycling": "exec-fd1ee8bf-6a51-47ae-9a5d-6408582b5350.png",
+    "controlled-destruction": "exec-8caac861-352e-4106-b89f-5c78c981e7cc.png",
+    "cleaning": "exec-66a419a5-7b3d-42ed-8c33-3574e3205a3f.png"
+  },
+  "national_map": {
+    "source_video": "C:\\Users\\ASUS\\Desktop\\New folder (5)\\Fw__Website_feedback\\Prezentare-video-GreenPack.mp4",
+    "seconds": 28.8,
+    "crop": "1200:820:340:110",
+    "caption_cleanup": "Excluded the leftover lower-left slide heading from the exported video frame; map outline, points and labels retained.",
+    "published_asset": "national-map-v2.webp"
+  },
+  "note": "The five service images are AI-generated reference-based marketing visuals. The national map is extracted from the supplied video."
+}

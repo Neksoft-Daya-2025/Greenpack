@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Controlled destruction process</title>
+  <desc id="desc">Packaged goods pass through a secured shredder and become separated material fragments. This is a service illustration.</desc>
+  <rect width="1200" height="700" fill="#173e2c"/>
+  <circle cx="1060" cy="80" r="270" fill="#214d37"/>
+  <circle cx="80" cy="680" r="260" fill="#214d37"/>
+  <g stroke="#dcebcf" stroke-width="9" stroke-linejoin="round" fill="#315d40">
+    <path d="m90 270 100-52 100 52v140l-100 55-100-55z"/>
+    <path d="m90 270 100 54 100-54m-100 54v141m-50-220 100 54v50" fill="none"/>
+    <rect x="465" y="275" width="240" height="210" rx="20"/>
+    <path d="m485 215 200 0-20 60H505z" fill="#a9de59"/>
+    <path d="M500 325h170" stroke="#a9de59" stroke-width="17"/>
+    <path d="m510 326 15 30 15-30 15 30 15-30 15 30 15-30 15 30 15-30 15 30 15-30" fill="none"/>
+    <path d="M505 485v35m160-35v35"/>
+    <path d="M865 370h220l-18 130H883z"/>
+  </g>
+  <g fill="#a9de59">
+    <path d="m345 325 35 25-35 25v-17h-30v-16h30zm420 0 35 25-35 25v-17h-30v-16h30z"/>
+    <path d="m900 310 26 10-10 27-26-10zm55-25 30 8-8 29-30-8zm65 33 30-9 9 30-30 9zm-75 38 21-18 18 21-21 18zm-50 60 26 10-10 27-26-10zm85 18 30-9 9 30-30 9z"/>
+  </g>
+  <g transform="translate(575 85)" fill="none" stroke="#a9de59" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m0 0 60 22v50c0 38-35 63-60 75-25-12-60-37-60-75V22z" fill="#173e2c"/>
+    <rect x="-24" y="53" width="48" height="42" rx="6"/>
+    <path d="M-15 53V40a15 15 0 0 1 30 0v13"/>
+  </g>
+  <path d="M80 555h1040" stroke="#72936c" stroke-width="2"/>
+  <g fill="#dcebcf" font-family="sans-serif" font-weight="700" font-size="24" text-anchor="middle">
+    <text x="190" y="600">01</text><text x="585" y="600">02</text><text x="975" y="600">03</text>
+  </g>
+</svg>

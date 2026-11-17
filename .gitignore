@@ -1,0 +1,10 @@
+backups/
+evidence/
+.env
+.env.*
+__pycache__/
+*.pyc
+wp-config.php
+*.sql
+*.sql.gz
+*.tar.gz
